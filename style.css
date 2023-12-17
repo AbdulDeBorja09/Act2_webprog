@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --brown: #3c241a;
+  --darkbrown: #4c3c33;
+  --white: ;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+  background-color: var(--white);
+}
+
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  padding: 40px;
+
+  .coffee {
+    color: #3c241a;
+  }
+
+  .pannel1 {
+    .imgbox img {
+      width: 400px;
+    }
+
+    .textbox-border {
+      margin-top: 20px;
+      padding: 3px;
+      background-color: var(--darkbrown);
+      width: 400px;
+      border-radius: 7px;
+
+      .textbox {
+        background-color: white;
+        padding: 20px;
+      }
+
+      .textbox p {
+        font-size: 15px;
+      }
+    }
+  }
+
+  .pannel2 {
+    margin-left: 40px;
+
+    .toppannel {
+      display: flex;
+
+      .imgbox2 {
+        padding: 30px 30px 25px 30px;
+        border: 2px solid #4c3c33;
+      }
+
+      .imgbox2 img {
+        width: 70vh;
+      }
+
+      .title h1 {
+        padding: 120px 100px 100px 110px;
+        font-size: 10vh;
+      }
+    }
+
+    .bottompannel {
+      display: flex;
+
+      .imgbox3 {
+        border: 2px solid #4c3c33;
+        border-top: 0px;
+      }
+      .imgbox3 img {
+        width: 400px;
+        padding: 0px 15px 8px 15px;
+      }
+      .imgbox3 p {
+        font-size: 18px;
+        padding: 30px;
+        width: 400px;
+        text-align: center;
+      }
+      .textbox2 {
+        margin: 30px 0px 0px 30px;
+        width: 90vh;
+        padding: 45px;
+        background-color: #d8d1d1;
+      }
+
+      .textbox2 p {
+        font-size: 23px;
+      }
+    }
+  }
+}
